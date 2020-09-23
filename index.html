@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<!-- fonts -->
+<link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Acme' rel='stylesheet' type='text/css'><!-- //fonts -->
+
+	<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smoth-scrolling -->
+
+<!-- skills -->
+<script src="js/pie-chart.js" type="text/javascript"></script>
+ <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('#demo-pie-1').pieChart({
+                barColor: '#10A7AF',
+                trackColor: '#fff',
+                lineCap: 'round',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+            $('#demo-pie-2').pieChart({
+                barColor: '#10A7AF',
+                trackColor: '#fff',
+                lineCap: 'butt',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+            $('#demo-pie-3').pieChart({
+                barColor: '#10A7AF',
+                trackColor: '#fff',
+                lineCap: 'square',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+			
+			$('#demo-pie-4').pieChart({
+                barColor: '#10A7AF',
+                trackColor: '#fff',
+                lineCap: 'square',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+        });
+    </script>
+<!-- skills -->
+<script type="text/javascript" src="js/numscroller-1.0.js"></script>
+
+</head>
+<body>
+<!-- banner -->
+<div class="header-top">
+	<div class="container">
+		<ul>
+			<li><a class="scroll" href="#about"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>简历</a></li>
+	
+			<li><a href="javascript:window.print()"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>打印</a></li>
+			<li><a href="#portfolioModal9" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal">
+				<span class="glyphicon glyphicon-picture" aria-hidden="true"></span>照片</a></li>
+		</ul>
+	</div>
+</div>	
+<div class="header">
+	<div class="container">
+		<div class="col-md-8 header-left">
+			<div class="col-sm-5 pro-pic">
+				<img class="img-responsive" src="images/pic1.jpg" alt=" "/>
+			</div>
+			<div class="col-sm-5 pro-text">
+				<h1>张子轩</h1>
+				<p>21岁应届毕业生</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="col-md-4 header-right ">
+			<ul class="list-left">
+				<li>邮箱:</li>			
+				<li>电话:</li>
+				<li>政治面貌:</li>
+				<li>毕业院校:</li>
+				<li>学历:</li>
+				<li>民族:</li>
+				<li>地址: </li>
+			</ul>
+			<ul class="list-right">
+				<li><a href="820783615@qq.com">820783615@qq.com</a></li>			
+				<li>18232065063</li>
+				<li>群众</li>
+				<li>石家庄铁道大学</li>
+				<li>本科</li>
+				<li>汉</li>
+				<li> 河北省石家庄市石家庄长安区</li>
+			</ul>
+			<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //banner -->
+<!-- about -->
+<div id="about" class="about">
+	<div class="container">
+		<h3 class="tittle">自我评价</h3>
+		<p class="abt-para">本人有扎实的java编程基础，熟悉Mysql数据库等关系型数据库的使用，熟悉Spring MVC框架的使用。对于javaweb开发相关技术有一定了解。本人热爱学习，工作态度严谨认真，责任心强，有很好的团队协作能力。本人有三年辅导机构兼职教师的工作经验，能够快速适应公司环境。在未来的工作中，我将以充沛的精力，刻苦钻研的精神来努力工作，稳定地提高自己的工作能力，与公司同步发展。 </p>
+	</div>
+	<div class="col-md-6 abt-left ">
+		<h2>教育经历</h2>
+				<div class="accordion">
+							<div class="accordion-section">
+								<h5><a class="accordion-section-title" href="#accordion-1">
+									<span>2017 - 2021</span> 石家庄铁道大学
+								<i class="glyphicon glyphicon-chevron-down"></i><div class="clearfix"></div>
+								</a></h5>
+								<div id="accordion-1" class="accordion-section-content">
+									<h6>荣誉和奖项</h6>
+									<ul>
+										<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">软件著作权</a></li>
+										<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">普通话证书</a></li>
+										
+									</ul>
+								</div>
+							</div>
+
+							<div class="accordion-section">
+								<h5><a class="accordion-section-title" href="#accordion-2">
+									<span>2014 - 2017</span> 河北峰峰第一中学
+								<i class="glyphicon glyphicon-chevron-down"></i><div class="clearfix"></div>
+								</a></h5>
+							
+							</div>
+
+							
+							
+							
+				</div>
+				<script>
+							jQuery(document).ready(function() {
+								function close_accordion_section() {
+									jQuery('.accordion .accordion-section-title').removeClass('active');
+									jQuery('.accordion .accordion-section-content').slideUp(300).removeClass('open');
+								}
+
+								jQuery('.accordion-section-title').click(function(e) {
+									// Grab current anchor value
+									var currentAttrValue = jQuery(this).attr('href');
+
+									if(jQuery(e.target).is('.active')) {
+										close_accordion_section();
+									}else {
+										close_accordion_section();
+
+										// Add active class to section title
+										jQuery(this).addClass('active');
+										// Open up the hidden content panel
+										jQuery('.accordion ' + currentAttrValue).slideDown(300).addClass('open'); 
+									}
+
+									e.preventDefault();
+								});
+							});
+				</script>
+	</div>
+	<div class="col-md-6 abt-right ">
+		<div class="col-sm-4 abt-gd-left text-center">
+			<div id="demo-pie-1" class="pie-title-center" data-percent="40"> <span class="pie-value"></span> </div>
+			<h4>Java</h4>
+		</div>
+		
+		<div class="col-sm-4 abt-gd-left text-center">		   
+			<div id="demo-pie-3" class="pie-title-center" data-percent="30"> <span class="pie-value"></span> </div>
+			<h4>Java Web</h4>
+		</div>
+		<div class="col-sm-4 abt-gd-left text-center">		   
+			<div id="demo-pie-4" class="pie-title-center" data-percent="30"> <span class="pie-value"></span> </div>
+			<h4>Spring等框架</h4>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<div class="clearfix"></div>
+</div>
+<!-- about -->
+<!-- education -->
+<div class="employment">
+	<div class="container">
+		<h3 class="tittle ">项目经验</h3>
+		<p class="abt-para ">以下项目经验为在校期间学习和实践项目 </p>
+		<div class="col-md-6 employ-left">
+			<h4>01</h4>
+		</div>
+		<div class="col-md-6 employ-right">
+			<h5><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>河北科创平台年报统计填报系统</h5>
+			<p>该项目基于jsp+servlet+javabean进行设计开发，MySQL数据库；
+该项目实现报表的填报和管理标准化，并提供多条件查询、树状查询等多种查询方式 </p>
+		</div>
+		<div class="col-md-6 employ-left2">
+			<h5>铁大通校园APP<span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span></h5>
+			<p>该项目数据库采用云数据库进行数据存储支持用户进行在线评论等；
+该项目采用Android相关技术进行开发； </p>
+		</div>
+		<div class="col-md-6 employ-right2">
+			<h4>02</h4>
+		</div>
+		<div class="col-md-6 employ-left ">
+			<h4>03</h4>
+		</div>
+		<div class="col-md-6 employ-right">
+			<h5><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>医院挂号就诊系统</h5>
+			<p>该项目由Spring+SpringMVC+Mybatis+Mysql进行架构；
+该项目可完成用户网上预约挂号，就诊管理等多功能的管理； </p>
+		</div>
+		
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- education -->
+<!-- num scroller -->
+<div class="num-scroller">
+	<div class="container">
+		<h3 class="tittle ">爱好</h3>
+		<div class="col-md-3 capabil-grid text-center">
+			
+			<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='1000' data-delay='.5' data-increment="100">1000</div>
+			<p>游泳</p>		
+		</div>
+		<div class="col-md-3 capabil-grid text-center">
+					
+			<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='1700' data-delay='.5' data-increment="5">1700</div>
+			<p>跑步</p>	
+		</div>
+		<div class="col-md-3 capabil-grid text-center" >
+			
+			<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='9000' data-delay='.5' data-increment="100">9000</div>				
+			<p>羽毛球</p>
+		</div>
+		<div class="col-md-3 capabil-grid text-center">			
+			<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='2500' data-delay='.5' data-increment="1">2500</div>
+			<p>乒乓球</p>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //num scroller -->
+<!-- portfolio -->
+
+<!-- //portfolio -->
+<!-- more skills -->
+<div class="more">
+	<div class="container">
+		<h3 class="tittle ">技能</h3>
+		<div class="col-md-6 skill-left ">
+			<div class="progress">
+				  <div class="progress-bar progress-bar-success" style="width: 80%">扎实的java语言基础
+					<span class="sr-only">50% Complete (success)</span>
+				  </div>
+				  <div class="progress-bar progress-bar-warning " style="width: 55%">
+					<span class="sr-only"></span>
+				  </div>
+				  <p>85%</p>
+				  <div class="clearfix"></div>
+			</div>
+			<div class="progress">
+				  <div class="progress-bar progress-bar-success1" style="width: 80%">Spring、 SpringMVC、 Mybatis等框架
+					<span class="sr-only">35% Complete (success)</span>
+				  </div>
+				  <div class="progress-bar progress-bar-warning1" style="width: 50%">
+					<span class="sr-only"></span>
+				  </div>
+				  <p>80%</p>
+				  <div class="clearfix"></div>
+			</div>
+			<div class="progress">
+				  <div class="progress-bar progress-bar-success3" style="width: 80%">了解SQL编程，熟悉MySQL 、Oracle等关系型数据库的使用
+					<span class="sr-only">35% Complete (success)</span>
+				  </div>
+				  <div class="progress-bar progress-bar-warning3 " style="width: 55%">
+					<span class="sr-only"></span>
+				  </div>
+				  <p>85%</p>
+				  <div class="clearfix"></div>
+			</div>
+			<div class="progress">
+				  <div class="progress-bar progress-bar-success2" style="width: 80%">熟悉Linux技术，能熟练使用配置部署Tomcat等主流服务器
+					<span class="sr-only">35% Complete (success)</span>
+				  </div>
+				  <div class="progress-bar progress-bar-warning2" style="width: 55%">
+					<span class="sr-only"></span>
+				  </div>
+				  <p>85%</p>
+				  <div class="clearfix"></div>
+			</div>
+			
+			<div class="progress no-marg">
+				  <div class="progress-bar progress-bar-success4" style="width: 80%">熟练掌握JSP、 Servlet等java web技术，有一定java web项目和安卓端APP开发经验
+					<span class="sr-only">35% Complete (success)</span>
+				  </div>
+				  <div class="progress-bar progress-bar-warning4" style="width: 40%">
+					<span class="sr-only"></span>
+				  </div>
+				  <p>70%</p>
+				  <div class="clearfix"></div>
+			</div>
+		</div>
+		
+<!-- more skills -->
+<!-- contact -->
+<div class="col-md-6 skill-right ">
+			<div class="scrollbar scrollbar1">
+				<div class="more-gds">
+					<div class="col-sm-3 more-left">
+						<span class="glyphicon glyphicon-scissors" aria-hidden="true"></span>
+					</div>
+					<div class="col-sm-9 more-right">
+						<h4>办公软件</h4>
+						<p>常用的办公软件。Word、Excel、PowerPoint办公用软件熟练使用，熟练掌握国产软件WPS</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="more-gds yes_marg">
+					<div class="col-sm-9 more-right2">
+						<h4>图形软件</h4>
+						<p>常用的图形软件，photoshop、美图秀秀等，做一些基本的图形图像处理</p>
+					</div>
+					<div class="col-sm-3 more-left">
+						<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			
+			
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<div id="emailme" class="contact">
+	<div class="container">
+		<h3 class="tittle">联系</h3>
+		<div class="col-md-6 contact-left ">
+			<div class="horizontal-tab">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#tab1" data-toggle="tab" aria-expanded="false">联系我</a></li>
+					<li class=""><a href="#tab2" data-toggle="tab" aria-expanded="false">雇佣我</a></li>
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane active in" id="tab1">
+						<div class="contact-form">
+							<ul>
+								<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>河北省石家庄市长安区 <span>石家庄铁道大学</span></li>
+								<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">820783615@qq.com</a></li>
+								<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>18232065063</li>
+							</ul>
+							<form>
+								<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+								<input type="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+								<textarea type="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">信息...</textarea>
+								<input type="submit" value="Submit" >
+							</form>
+						</div>
+					 
+					</div>
+					<div class="tab-pane" id="tab2">
+					  <div class="contact-form">
+							<form>
+								<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+								<input type="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+								<textarea type="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Description...</textarea>
+								<input id="uploadFile" placeholder="Choose File" disabled="disabled" />
+									<div class="fileUpload btn btn-primary">
+										<span>Upload</span>
+										<input id="uploadBtn" type="file" class="upload" />
+									</div>
+								<input type="submit" value="Send Request" >
+							</form>
+							<script>
+								document.getElementById("uploadBtn").onchange = function () {
+									document.getElementById("uploadFile").value = this.value;
+								};
+							</script>
+						</div>
+					</div>
+					
+				</div>
+            </div>
+		</div>
+		
+</div>
+<!-- //contact -->
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic4.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic9.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic5.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic6.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic10.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic11.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic13.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic14.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+                        <img src="images/pic1.jpg" class="img-responsive img-centered" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+	<!--scrolling js-->
+	<script src="js/jquery.nicescroll.js"></script>
+	<script src="js/scripts.js"></script>
+	<!--//scrolling js-->
+	<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+
+</body>
+</html>
